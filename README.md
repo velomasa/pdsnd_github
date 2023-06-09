@@ -18,3 +18,10 @@ _chicago.json_
 _washington.json_
 _new_york_city.json_
 
+### Notes
+**The version of urllib3 installed here is 1.24.3 and the version of osmnx is 1.3.0** 
+**Hopefully if you run it on the same version, then it would work but there're some tips on the web below. it might be helpful too. My python version is 3.9.13**
+
+**https://github.com/googleapis/python-bigquery/issues/1565**
+**https://stackoverflow.com/questions/76187256/importerror-urllib3-v2-0-only-supports-openssl-1-1-1-currently-the-ssl-modu**
+**https://github.com/urllib3/urllib3/issues/2168**
