@@ -76,6 +76,8 @@ def get_filters():
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (int) month_sp - if month is specified, 1 is assigned, otherwise 0
+        (int) day_sp - if day is specified, 1 is assigned, otherwise 0
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
