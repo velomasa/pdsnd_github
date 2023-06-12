@@ -7,7 +7,7 @@
 **Bikeshare Project**
 
 ### Description
-**We have files for bikeshare trip for each city. You can choose the city first, day and month if necessary. Based on the information selected, you can see most popular bike stations, trip and so on. In addtion, we have longitude and latitude information in json file so you can see trip info on a map.**
+**We have files for bikeshare trip for each city. You can choose the city first, day and month if necessary. Based on the information selected, you can see most popular bike stations, trip and so on. In addtion, we have longitude and latitude information in json file so you can see trip info as a line on a map. If start/end stations are the same, the line won't be drawn. Instead, only the marker to represent the station will be pop up**
 
 ### Files used
 _bikeshare.py_
