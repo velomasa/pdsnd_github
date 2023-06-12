@@ -22,6 +22,11 @@ def get_city():
 def date_check():
     '''input the date(month and day) and if not in the list, popup will show up again to ask for retry
        you can specify both(month and day) or day only or month only or nothing specified
+    Returns:
+        (str) month - name of the month to filter by, or "all" to apply no month filter
+        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (int) month_sp - if month is specified, 1 is assigned, otherwise 0
+        (int) day_sp - if day is specified, 1 is assigned, otherwise 0
     '''
     month_sp=0
     day_sp=0
