@@ -23,8 +23,8 @@ def date_check():
     '''input the date(month and day) and if not in the list, popup will show up again to ask for retry
        you can specify both(month and day) or day only or month only or nothing specified
     '''
-    month_sp=0
-    day_sp=0
+    month_sp=0 #if month is specified, it's turned to 1
+    day_sp=0 #if day is specified, it's turned to 1
     
     date_check = input('\nWould you like to filter the data by month, day, both or none? Type "none" for no filter\n').lower()
     while date_check not in ('both','month','day','none'):
